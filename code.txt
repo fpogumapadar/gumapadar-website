@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gumapadar Farmers Producer Company LTD</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #2e7d32; color: white; padding: 20px; text-align: center; }
+        header img { max-width: 150px; display: block; margin: auto; }
+        nav { background: #388e3c; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 20px; max-width: 800px; margin: auto; background: white; }
+        .button { display: inline-block; padding: 10px 20px; background: #388e3c; color: white; text-decoration: none; border-radius: 5px; }
+        footer { text-align: center; padding: 20px; background: #2e7d32; color: white; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="image.png" alt="Gumapadar Logo">
+        <h1>Gumapadar Farmers Producer Company LTD</h1>
+        <p>Promoted by Shanti Maitree | Supported by NABARD</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#order">Order Now</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Gumapadar Farmers Producer Company LTD focuses on empowering farmers through sustainable agricultural practices, training, and better market access.</p>
+    </div>
+    
+    <div class="container" id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Exported 21.72 tons of polished turmeric to the EU (Netherlands) in April 2024.</li>
+            <li>Established solar-powered turmeric and millet processing units.</li>
+            <li>Conducted training programs for farmers on Good Agricultural Practices.</li>
+        </ul>
+    </div>
+    
+    <div class="container" id="order">
+        <h2>Order Form</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" name="name" required><br>
+            
+            <label>Contact:</label>
+            <input type="text" name="contact" required><br>
+            
+            <label>Product:</label>
+            <select name="product">
+                <option>Turmeric</option>
+                <option>Turmeric Powder</option>
+                <option>Millet</option>
+            </select><br>
+            
+            <label>Quantity:</label>
+            <input type="number" name="quantity" required><br>
+            
+            <label>Upload Payment Receipt:</label>
+            <input type="file" name="receipt" required><br>
+            
+            <button type="submit" class="button">Submit Order</button>
+        </form>
+    </div>
+    
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: fpogumapadar@gmail.com</p>
+        <p>WhatsApp: 9040178871</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Gumapadar Farmers Producer Company LTD. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
